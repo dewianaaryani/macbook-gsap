@@ -1,7 +1,14 @@
 import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 const App = () => {
-  return <h1 className="text-3xl font-bold underline">App</h1>;
+  return (
+    <main>
+      <Navbar />
+      <Hero />
+    </main>
+  );
 };
 
 export default App;
